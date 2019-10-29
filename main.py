@@ -6,8 +6,8 @@ import time
 import os
 
 from model import MAML
-from utils.data import Data
-from utils.accumulator import Accumulator
+from data import Data
+from accumulator import Accumulator
 from layers import get_train_op
 
 parser = argparse.ArgumentParser()
